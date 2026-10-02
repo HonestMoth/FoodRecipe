@@ -51,7 +51,7 @@ FoodRecipe/
 ├── index.js
 ├── package.json
 └── README.md
-'''
+```
 
 🚀 Getting Started
 1. Clone the repository
