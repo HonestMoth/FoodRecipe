@@ -1,46 +1,107 @@
-# Foodie v2
+# 🍴 Foodie — Recipe App
 
-Foodie v2 is an Expo/React Native recipe app with a Neo-Brutalist design system.
+## 📌 Overview
 
-## What's new in v2
+**Foodie** is a React Native and Expo recipe application that allows users to discover recipes, browse categories, view recipe details, save favorites, and create and manage their own recipes.
 
-- 20 built-in recipes across breakfast, Indian, Italian, Asian, Mexican, dessert, healthy and other categories.
-- Responsive recipe grid:
-  - 2 columns on narrow screens
-  - 3 columns on medium screens
-  - 4 columns on wide screens
-- Responsive recipe detail layout.
-- Refined Neo-Brutalist visual system with:
-  - thick black borders
-  - hard shadows
-  - high-contrast yellow/red/blue accents
-  - rounded but geometric cards
-  - cream canvas background
-- Favorites with Redux.
-- Custom recipes with AsyncStorage.
-- Add, edit, view and delete personal recipes.
-- Required assignment testIDs retained.
+The app uses a **Neo-Brutalist design** with bold typography, thick borders, hard shadows, and a responsive layout.
 
-## Run
+## 📸 Preview
 
-```bash
+Homepage: <img width="947" height="404" alt="image" src="https://github.com/user-attachments/assets/a8b8b829-ddc5-4187-bce2-1d07e6ab9af6" />
+Recipe Page: <img width="926" height="500" alt="image" src="https://github.com/user-attachments/assets/e492ac8e-a3a7-4819-b3a9-c2ee3ad08b53" />
+Recipe Instructions: <img width="905" height="489" alt="image" src="https://github.com/user-attachments/assets/5b11451f-e661-4c42-a3a2-3b8878887ce2" />
+Favorite Page: <img width="941" height="494" alt="image" src="https://github.com/user-attachments/assets/4756909a-b42d-4885-a0f7-a7c8e47ed835" />
+Add Recipe: <img width="822" height="503" alt="image" src="https://github.com/user-attachments/assets/7dd1cf6e-b7e8-403b-882b-102176672fb8" />
+
+## ✨ Features
+
+- 🏠 Browse recipes with a responsive grid
+- 🔎 Browse recipes by category
+- 📖 View detailed recipes, ingredients and instructions
+- ❤️ Add and remove favorite recipes
+- 👨‍🍳 Create custom recipes
+- ✏️ Edit and delete custom recipes
+- 💾 Store custom recipes using AsyncStorage
+- 📱 Responsive design for different screen sizes
+- 🎨 Neo-Brutalist UI design
+
+## 🛠️ Tech Stack
+
+- React Native
+- Expo
+- JavaScript
+- React Navigation
+- Redux Toolkit
+- AsyncStorage
+- React Native Web
+- Space Grotesk
+
+## 📂 Project Structure
+
+```text
+FoodRecipe/
+├── components/
+├── data/
+├── navigation/
+├── redux/
+├── screens/
+├── theme/
+├── App.js
+├── index.js
+├── package.json
+└── README.md
+
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/HonestMoth/FoodRecipe.git
+cd FoodRecipe
+
+2. Install dependencies
 npm install
+
+If dependency conflicts occur:
+npm install --force
+
+3. Start the application
 npm run web
-```
 
-Expo web starts on port 8081 by default.
+The application will run at:
+http://localhost:8081
 
-If dependencies need Expo-compatible versions:
+🎨 Design
+Foodie follows a Neo-Brutalist design system:
+- Thick black borders
+- Hard shadows
+- Bold typography
+- High-contrast colors
+- Cream background
+- Yellow, red and blue accents
+- Responsive recipe cards
+Color Palette
+Color	Hex
+Cream	#FFF8E7
+Black	#111111
+Yellow	#FFD43B
+Red	#FF5A5F
+Blue	#2563EB
+Green	#7CB342
 
-```bash
-npx expo install
-```
 
-## Main structure
+💾 Data Management
+- Static recipes → JavaScript data files
+- Favorites → Redux Toolkit
+- Custom recipes → AsyncStorage
+- No external database required
+🗺️ Future Improvements
+- Real image upload
+- Recipe search
+- User authentication
+- Backend API
+- Cloud database
+- Recipe ratings and reviews
 
-- `components/` reusable recipe/category UI
-- `data/` 20 recipe dataset and category list
-- `navigation/` stack navigation
-- `redux/` favorites state
-- `screens/` application screens
-- `theme/` design tokens
+👨‍💻 Author
+HonestMoth
+GitHub:
+https://github.com/HonestMoth/FoodRecipe
