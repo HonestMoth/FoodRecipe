@@ -54,21 +54,18 @@ FoodRecipe/
 ```
 
 🚀 Getting Started
-1. Clone the repository
-git clone https://github.com/HonestMoth/FoodRecipe.git
-cd FoodRecipe
+1. Clone the Repository
+ git clone https://github.com/HonestMoth/FoodRecipe.git
+ cd FoodRecipe
 
-2. Install dependencies
-npm install
+2. Install Dependencies
+ npm install
 
-If dependency conflicts occur:
-npm install --force
-
-3. Start the application
-npm run web
+3. Start the Application
+ npm run web
 
 The application will run at:
-http://localhost:8081
+ http://localhost:8081
 
 🎨 Design
 Foodie follows a Neo-Brutalist design system:
